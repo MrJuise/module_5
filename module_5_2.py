@@ -14,7 +14,6 @@ class House:
         self.number_of_floors = number_of_floors
 
     def go_to(self, new_floor):
-        floor = 0
         print(f'Здание {self.name} {self.number_of_floors}-этажное')
         if new_floor < 1 or self.number_of_floors < new_floor:
             print('Нет такого этажа')
